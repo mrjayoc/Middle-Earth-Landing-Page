@@ -3,32 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Come to Middle Earth Where Your ADVENTURE Awaits</title>
     <link href="reset.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <div class="flex-container col">
-        <div id="brown-box"></div>
+      <div class="flexbox flex-col">
+        <div id="page-top-border" class="brown-background"></div>
         <!-- Hero image -->
-        <div id="hero-image" class="flex-container row">
+        <div id="hero-image" class="flexbox flex-row">
           <!-- Hero text -->
           <div id="hero-text">
-            <p class="accent slogan-text">Middle Earth</p>
-            <p class="slogan-text white">Your <span class="accent-light">Adventure</span> Awaits</p>
+            <p class="orange-text slogan-text">Middle Earth</p>
+            <p class="white-text slogan-text">Your <span class="beige-text">Adventure</span> Awaits</p>
           </div>
           <!-- Offer form and details -->
-          <div class="offer-wrapper">
-            <div class="offer-details">
+          <div id="offer-wrapper" class="flexbox flex-col blue-background">
+            <div id="offer-details">
             <p class="offer-text">Enter your details below to 
-get <span class="accent">15% off</span> your next stay</p>
+get <span class="orange-text">15% off</span> your next stay</p>
             </div>
             <form class="offer-form" action="">
               <input type="text" id="first-name-box" name="first-name" placeholder="FIRST NAME">
               <input type="text" id="last-name-box" name = "last-name" placeholder="LAST NAME">
               <input type="text" id="email-box" name="email" placeholder="E-MAIL">
-              <button class="submit-button">SUBMIT</button>
+              <button id="offer-form-submit-button" class="orange-background white-text">SUBMIT</button>
             </form>
         </div>
       </div>
@@ -36,11 +36,11 @@ get <span class="accent">15% off</span> your next stay</p>
     </header>
 
     <main>
-      <section id="description" class="flex-container">
-        <div class="flex-container side-column">
-          <img id="description-image" class="small" src="img/hobbleton1.jpg" alt="view of Hobbleton overlooking small lake and dock"/>
+      <section id="description" class="flexbox">
+        <div id="description-side-column" class="flexbox">
+          <img id="description-image" src="img/hobbleton1.jpg" alt="view of Hobbleton overlooking small lake and dock"/>
         </div>
-        <div class="main-column flex-container col">
+        <div id="description-main-column" class="flexbox flex-col">
           <h2>LORUM IPSUM</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit accusamus sunt sint, porro voluptas saepe ab alias quia dolor odit dignissimos maxime, at fugiat sequi recusandae adipisci tenetur illo?
           Dolore minima cumque facere quos harum deserunt, reprehenderit consequatur culpa aut unde illum ab adipisci molestias nemo corporis ex voluptates? Rem eum aliquam unde beatae dolore harum, reiciendis dicta optio!
@@ -49,8 +49,29 @@ get <span class="accent">15% off</span> your next stay</p>
         </div>
       </section>
 
-      <section id="features">
-
+      <section id="features" class="flexbox flex flex-col center-aligned-items beige-background">
+          <h2>FEATURES</h2>
+          <div id="horizontal-line"></div>
+          <div id="features-wrapper" class="flexbox flex-row">
+              <div class="flexbox flex-col">
+                  <div class="img"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
+                      cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
+                      veritatis voluptas voluptate!</p>
+              </div>
+              <div class="flexbox flex-col">
+                  <div class="img"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
+                      cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
+                      veritatis voluptas voluptate!</p>
+              </div>
+              <div class="flexbox flex-col">
+                  <div class="img"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
+                      cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
+                      veritatis voluptas voluptate!</p>
+              </div>
+          </div>
       </section>
 
         <section id="testimonial">
