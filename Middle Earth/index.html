@@ -13,6 +13,7 @@
         <div id="page-top-border" class="brown-background"></div>
         <!-- Hero image -->
         <div id="hero-image" class="flexbox flex-row">
+          <div class="dark-overlay"></div>
           <!-- Hero text -->
           <div id="hero-text">
             <p class="orange-text slogan-text">Middle Earth</p>
@@ -53,20 +54,20 @@ get <span class="orange-text">15% off</span> your next stay</p>
           <h2>FEATURES</h2>
           <div id="horizontal-line"></div>
           <div id="features-wrapper" class="flexbox flex-row">
-              <div class="flexbox flex-col">
-                  <div class="img"></div>
+              <div class="features-card flexbox flex-col">
+                  <div id="card-image-1" class="img"></div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
                       cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
                       veritatis voluptas voluptate!</p>
               </div>
-              <div class="flexbox flex-col">
-                  <div class="img"></div>
+              <div class="features-card flexbox flex-col">
+                  <div id="card-image-2" class="img"></div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
                       cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
                       veritatis voluptas voluptate!</p>
               </div>
-              <div class="flexbox flex-col">
-                  <div class="img"></div>
+              <div class="features-card flexbox flex-col">
+                  <div id="card-image-3" class="img"></div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad asperiores consectetur consequatur
                       cumque dolor eum ex explicabo iure maiores obcaecati officiis, pariatur porro quod saepe ullam
                       veritatis voluptas voluptate!</p>
@@ -75,15 +76,26 @@ get <span class="orange-text">15% off</span> your next stay</p>
       </section>
 
         <section id="testimonial">
-
+            <div class="testimonial testimonial-aligned-left flexbox flex-row">
+                <img src="img/ian.png" alt="portrait of man with gray hair">
+                <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem blanditiis, cumque cupiditate eligendi eveniet ex fugit illo impedit molestiae mollitia necessitatibus nostrum porro reiciendis tenetur ullam velit voluptates!"</p>
+            </div>
+            <div class="testimonial testimonial-aligned-right flexbox flex-row">
+                <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem blanditiis, cumque cupiditate eligendi eveniet ex fugit illo impedit molestiae mollitia necessitatibus nostrum porro reiciendis tenetur ullam velit voluptates!"</p>
+                <img src="img/sean.png" alt="portrait of young man">
+            </div>
         </section>
 
-        <section id="final-offer">
-
+        <section id="final-offer" class="flexbox flex-row">
+            <div id="last-chance-message" class="flexbox flex-col">
+                <p>Don't miss your chance to</p>
+                <p id="save-15" class="big green">save 15%</p>
+            </div>
+            <button id="book-now-button" class="orange-background white-text">BOOK NOW</button>
         </section>
     </main>
-    <footer>
-        <p>Copywrite © 2021 Tolkien, LLC. All rights reserved.</p>
+    <footer class="flexbox">
+        <p>Copyright © 2021 Tolkien, LLC. All rights reserved.</p>
     </footer>
     </div>
   </body>
