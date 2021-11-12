@@ -7,6 +7,16 @@
 
 /* Base styles */
 
+html {
+    font-family: "Baskerville Old Face", "Times New Roman", serif;
+}
+
+div.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -63,6 +73,7 @@ section {
 /* Hero styles */
 
 .dark-overlay {
+    display: none;
     position: absolute;
     top: 25px;
     left:0;
@@ -118,8 +129,7 @@ section {
     display: block;
     height: 2em;
     border-radius: 5px;
-    padding: 0.3em;
-    padding-left: 10px;
+    padding: 0.3em 0.3em 0.3em 10px;
     border: thin lightgray solid;
 }
 
@@ -137,6 +147,13 @@ section {
 }
 
 /* Description styles */
+#description {
+    padding: 0;
+}
+
+#description-bg-img {
+    background-image: url("img/hobbleton1.png");
+}
 
 #description-side-column {
     flex-shrink: 1;
@@ -149,7 +166,8 @@ section {
 }
 
 #description-main-column {
-    padding: 0 100px;
+    margin-left: 30%;
+    padding: 20px 100px;
     flex-shrink: 1.5;
     font-size: 1.5em;
 }
@@ -164,6 +182,12 @@ section {
 }
 
 /* Features description */
+
+#description-image {
+    background-image: url("img/hobbleton1.jpg");
+    width: 100%;
+    height: 100%;
+}
 
 .features-card {
     padding: 10px;
@@ -234,7 +258,7 @@ section {
 
 .testimonial p {
     padding: 0 50px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .testimonial-aligned-right {
