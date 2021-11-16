@@ -6,6 +6,7 @@
 }
 
 /* Base styles */
+
 body {
   font-family: "Baskerville Old Face", "Times New Roman", serif;
 }
@@ -73,15 +74,13 @@ section {
   display: none;
   position: absolute;
   top: 25px;
-  left: 0;
+  left:0;
   height: 500px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9 ;
-  /* ie fallback png background image */
+  background-color:rgba(0, 0, 0, 0.3);
+  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9; /* ie fallback png background image */
   z-index: 10;
 }
-
 #page-top-border {
   width: 100%;
   height: 25px;
@@ -146,6 +145,8 @@ section {
 /* Tablet Styles (768px width) */
 @media only screen and (min-width: 768px) {
   /* Hero styles */
+
+
   #page-top-border {
     width: 100%;
     height: 25px;
@@ -209,6 +210,8 @@ section {
     font-size: 1.5em;
   }
 }
+
+
 /* Description styles */
 #description {
   padding: 0;
@@ -245,6 +248,7 @@ section {
 }
 
 /* Features description */
+
 #description-image {
   background-image: url("img/hobbleton1.jpg");
   width: 100%;
@@ -257,7 +261,7 @@ section {
 
 .features-card .img {
   width: 90%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 3 / 2;
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -285,6 +289,7 @@ section {
   font-size: 2em;
 }
 
+
 #horizontal-line {
   border-top: 2px gray solid;
   width: 35%;
@@ -301,6 +306,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 #testimonial .testimonial:not(:first-child) {
   margin-top: 100px;
@@ -331,7 +337,6 @@ section {
   justify-content: space-around;
   align-items: center;
 }
-
 #book-now-button {
   border-radius: 5px;
   height: 100px;
@@ -362,7 +367,6 @@ section {
 #save-15 {
   margin: 10px;
 }
-
 footer {
   align-items: center;
   height: 25px;
@@ -370,5 +374,3 @@ footer {
   color: white;
   background-color: var(--brown-color);
 }
-
-/*# sourceMappingURL=style.css.map */
